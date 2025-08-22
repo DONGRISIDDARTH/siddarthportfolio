@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dongri Siddarth – Portfolio</title>
+  <meta name="description" content="Professional portfolio of Dongri Siddarth: projects, technical skills, education, and experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#top">Dongri <span class="muted">Siddarth</span></a>
+      <div class="row">
+        <nav class="links">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <span class="sep"></span>
+        <label class="theme">
+          <input id="themeToggle" type="checkbox" class="toggle" aria-label="Toggle light mode" />
+          <span>Light</span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+    <section class="hero">
+      <!-- Left: Profile Card -->
+      <aside class="card profile">
+        <div class="badge">Available for opportunities</div>
+        <div class="avatar-wrap">
+          <!-- Replace the data URL with your file path once deployed -->
+          <img class="avatar" alt="Profile photo" id="avatar"
+               src="webisite image1.jpg">
+        </div>
+        <!-- *** Your name BELOW the circular photo, highly highlighted *** -->
+        <div class="name" aria-live="polite">Dongri Siddarth</div>
+        <div class="title">M.Tech CSE NIT Warangal</div>
+        <div class="cta-row">
+          <a class="btn primary" href="#contact">Contact Me</a>
+          <a class="btn" id="resumeLink" href="#" download>Download Résumé</a>
+        </div>
+      </aside>
+
+      <!-- Right: Intro -->
+      <section class="card hero-about">
+        <h1>Building reliable ML & IoT systems for real‑world impact</h1>
+        <p>
+          I specialize in <strong>Machine Learning</strong>, <strong>Edge/Cloud systems</strong>, and
+          <strong>API‑driven data apps</strong>. My recent work optimizes task scheduling in
+          cloud‑integrated edge environments to reduce latency and energy usage.
+        </p>
+        <div class="pillset" id="topSkills"></div>
+        <div class="highlight" style="margin-top:14px">
+          <strong>Tip:</strong> Replace the placeholder photo above with your own image by editing the <code>src</code> of <code>#avatar</code>. You can also update your résumé file by replacing <code>resume.pdf</code> in the project root.
+        </div>
+      </section>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="grid cols-3" id="projectGrid"></div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-head">
+        <h2>Technical Skills</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="grid cols-2">
+        <div class="card pad">
+          <h3>Programming & Tools</h3>
+          <div class="tags" id="skillsCode"></div>
+        </div>
+        <div class="card pad">
+          <h3>Frameworks, DBs & Libraries</h3>
+          <div class="tags" id="skillsStack"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="grid">
+        <article class="card pad">
+          <div class="project">
+            <h3>Marketing Data Analyst Intern – Viaan Technologies Pvt. Ltd.</h3>
+            <p class="muted">June – July 2021</p>
+            <p>Applied ML concepts to identify engagement patterns and optimize marketing efforts. Analyzed social media trends to grow engagement and reach.</p>
+            <div class="meta tags">
+              <span class="tag">Engagement +30%</span>
+              <span class="tag">Content Reach +20%</span>
+            </div>
+          </div>
+        </article>
+        <article class="card pad">
+          <div class="project">
+            <h3>Machine Learning Intern – IBM ML Professional Certificate</h3>
+            <p class="muted">July – Oct 2022</p>
+            <p>Preprocessed data and built KNN, Decision Trees, SVM, and Logistic Regression models. Identified SVM as the best performer for loan‑status prediction.</p>
+            <div class="meta tags">
+              <span class="tag">SVM 80% Acc.</span>
+              <span class="tag">KNN</span>
+              <span class="tag">LogReg</span>
+              <span class="tag">Decision Tree</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <div class="section-head">
+        <h2>Education</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="grid cols-2">
+        <div class="card pad">
+          <h3>National Institute of Technology, Warangal</h3>
+          <div class="kvs">
+            <div class="kv"><span>Degree</span><div>M.Tech in CSE</div></div>
+            <div class="kv"><span>Years</span><div>2023 – 2025</div></div>
+            <div class="kv"><span>CGPA</span><div>7.1</div></div>
+          </div>
+        </div>
+        <div class="card pad">
+          <h3>JNTUH University College of Engineering, Jagtial</h3>
+          <div class="kvs">
+            <div class="kv"><span>Degree</span><div>B.Tech in IT</div></div>
+            <div class="kv"><span>Years</span><div>2017 – 2021</div></div>
+            <div class="kv"><span>CGPA</span><div>7.5</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <div class="rule"></div>
+      </div>
+      <div class="grid cols-3">
+        <div class="card pad">
+          <h3>Get in touch</h3>
+          <p class="muted">Open to roles in ML Engineering, Data Engineering, and Software Development.</p>
+          <div class="row">
+            <a class="btn" href="mailto:dongrisiddarth@gmail.com">Email</a>
+            <a class="btn" href="tel:+919182631922">Call</a>
+          </div>
+        </div>
+        <div class="card pad">
+          <h3>Profiles</h3>
+          <div class="row">
+            <a class="btn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/dongrisiddarth">LinkedIn</a>
+            <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/DONGRISIDDARTH">GitHub</a>
+            <a class="btn" target="_blank" rel="noreferrer" href="https://leetcode.com/u/urstrulysiddarth7/">LeetCode</a>
+          </div>
+        </div>
+        <div class="card pad">
+          <h3>Résumé</h3>
+          <p class="muted">Download a copy of my latest résumé or scan the QR code when hosted.</p>
+          <a class="btn primary" id="resumeLink2" href="#" download>Download Résumé</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container center">
+    <div>© <span id="year"></span> Dongri Siddarth · Built with HTML, CSS & JavaScript</div>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
