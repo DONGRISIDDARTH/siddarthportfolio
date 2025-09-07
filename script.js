@@ -11,6 +11,14 @@
           links:[{label:"Source Code", href:"https://github.com/DONGRISIDDARTH/Cross-Modal-Classification-with-Text-and-Image-Data"}],
           tags:["BERT","HANs","CNN","NLP","InceptionResNetV2","Preprocessing","Data Augmentation"]
         },
+        
+        {
+          title:"Optimized Task Scheduling in Cloud Edge Environmrnts (M.Tech Research)",
+          period:"Jul 2024 – Apr 2025",
+          summary:"Reinforcement Learning (DDPG) + EdgeSimPy/EdgeAISim to cut latency, response time, rejections & energy.",
+          links:[{label:"Visit", href:"#"}],
+          tags:["Assigning Task","Latency Reduction","Power","Reinforcement Learning","DDPG","EdgeSimPy","EdgeAISim"]
+        },
         {
           title:"IoT Real‑Time Health Monitoring System",
           period:"Feb 2024 – May 2024",
@@ -19,11 +27,11 @@
           tags:["Embedded C","RFID","Contiki‑NG","NoSQL","REST API","Streamlit","Analysis"]
         },
         {
-          title:"Optimized Task Scheduling in Cloud Edge Environmrnts (M.Tech Research)",
-          period:"Jul 2024 – Apr 2025",
-          summary:"Reinforcement Learning (DDPG) + EdgeSimPy/EdgeAISim to cut latency, response time, rejections & energy.",
-          links:[{label:"Visit", href:"#"}],
-          tags:["Assigning Task","Latency Reduction","Power","Reinforcement Learning","DDPG","EdgeSimPy","EdgeAISim"]
+          title: "Smart Chat Application for Real-Time Assistance",
+          period: "Jul 2025 – Aug 2025",
+          summary: "Built a smart chatbot using Generative AI (LLMs, Gemini, LangChain) to deliver accurate answers, generate code, and assist in building mini applications. Integrated a Python Flask REST API with JavaScript/HTML for real-time interaction.",
+          links: [{ label: "Visit", href: "#" }],
+          tags: ["Generative AI", "LLM", "Gemini", "LangChain", "Flask", "REST API", "JavaScript", "Chatbot"]
         },
         {
           title:"Loan Status Prediction using ML Algorithms ",
