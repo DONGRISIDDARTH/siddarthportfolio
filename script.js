@@ -20,19 +20,20 @@
           tags:["Assigning Task","Latency Reduction","Power","Reinforcement Learning","DDPG","EdgeSimPy","EdgeAISim"]
         },
         {
+          title: "Smart Chat Application for Real-Time Assistance",
+          period: "Jul 2025 – Aug 2025",
+          summary: "Built a smart chatbot using Generative AI (LLMs, Gemini, LangChain) to deliver accurate answers, generate code, and assist in building mini applications. Integrated a Python Flask REST API with JavaScript/HTML for real-time interaction.",
+          links: [{ label: "Source Code", href: "https://github.com/DONGRISIDDARTH/Smart-Chat-Application" }],
+          tags: ["Generative AI", "LLM", "Gemini", "LangChain", "Flask", "REST API", "JavaScript", "Chatbot"]
+        },
+        {
           title:"IoT Real‑Time Health Monitoring System",
           period:"Feb 2024 – May 2024",
           summary:"Hypothermia detection pipeline with RFID simulations, temperature monitoring, NoSQL backend, REST API + Streamlit UI.",
           links:[{label:"Source Code", href:"https://github.com/DONGRISIDDARTH/IoT-Enabled-Health-Devices-for-Real-time-Health-Monitoring"}],
           tags:["Embedded C","RFID","Contiki‑NG","NoSQL","REST API","Streamlit","Analysis"]
         },
-        {
-          title: "Smart Chat Application for Real-Time Assistance",
-          period: "Jul 2025 – Aug 2025",
-          summary: "Built a smart chatbot using Generative AI (LLMs, Gemini, LangChain) to deliver accurate answers, generate code, and assist in building mini applications. Integrated a Python Flask REST API with JavaScript/HTML for real-time interaction.",
-          links: [{ label: "Visit", href: "#" }],
-          tags: ["Generative AI", "LLM", "Gemini", "LangChain", "Flask", "REST API", "JavaScript", "Chatbot"]
-        },
+        
         {
           title:"Loan Status Prediction using ML Algorithms ",
           period:"Jul – Oct 2022",
